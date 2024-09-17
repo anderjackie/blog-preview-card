@@ -19,3 +19,10 @@ body {
   font-size: 16px;
   font-weight: var(--regular);
 }
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: contain;
+}
