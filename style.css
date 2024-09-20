@@ -28,16 +28,17 @@ body {
 main {
   background-color: var(--white);
   margin: 0 auto;
-  min-width: 350px;
-  min-height: 500px;
-  max-width: 350px;
-  max-height: 500px;
+  min-width: 320px;
+  min-height: 470px;
+  max-width: 320px;
+  max-height: 470px;
   padding: 18px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 15px;
+  border-top: 1px black;
   box-shadow: 8px 8px 3px 3px black;
 }
 
@@ -93,8 +94,8 @@ img {
 }
 
 .avatar>img {
-  width: auto;
-  height: auto;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
 }
 
